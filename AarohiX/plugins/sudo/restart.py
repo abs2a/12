@@ -31,7 +31,7 @@ async def is_heroku():
     return "heroku" in socket.getfqdn()
 
 
-@app.on_message(command(["السجلات"]) & filters.user(OWNER_ID))
+@app.on_message(command(["السجلانت"]) & filters.user(OWNER_ID))
 @language
 async def log_(client, message, _):
     try:
