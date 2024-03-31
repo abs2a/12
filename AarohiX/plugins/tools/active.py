@@ -12,7 +12,7 @@ from AarohiX.utils.database import (
 )
 
 
-@app.on_message(command(["الاتصالات", "activevoice"]) & SUDOERS)
+@app.on_message(command(["خخخحن", "activevoice"]) & SUDOERS)
 async def activevc(_, message: Message):
     mystic = await message.reply_text("~ جاري البحث عن اتصالات .")
     served_chats = await get_active_chats()
