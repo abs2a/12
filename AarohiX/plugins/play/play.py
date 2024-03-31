@@ -28,7 +28,7 @@ from config import BANNED_USERS, lyrical
 @app.on_message(
     command(
         [
-            "تشغيل",
+            "شغل",
             "vplay",
             "cplay",
             "cvplay",
